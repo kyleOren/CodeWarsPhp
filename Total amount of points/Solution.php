@@ -17,4 +17,7 @@
     print_r("score = $points");
     return 0;
   }
+  $res = preg_replace("/[^a-zA-Z]/", "", $string);
+  $formatted = trim( chunk_split($password, 1, ' ') );
+  rtrim
 ?>
